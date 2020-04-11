@@ -18,6 +18,6 @@ int main()
         sum+=num[i];
     }
     avg=sum/n;
-    printf("Average = %.2f",avg);
+    printf("Average = %f",avg);
     return 0;
 }
