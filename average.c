@@ -3,7 +3,7 @@ int main()
 {
     int n,i;
     float num[100], sum = 0.0, avg;
-    printf("Enter the numbers of elements: ");
+    printf("Enter the number of elements: ");
     scanf("%d",&n);
     while (n>100||n<1)
     {
