@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int m,n;
-    int arr[5][5];
-    int transpose[5][5];
-    printf("Enter mxn : ");
-    scanf("%dx%d",&m,&n);
+    int m,n,j,i;
+    int arr[10][10];
+    int transpose[10][10];
+    printf("Enter number of rows [<=10] : ");
+    scanf("%d",&m);
+    printf("Enter number of columns [<=10]  : ");
+    scanf("%d",&n);
     printf("Enter the elements ;\n");
-    int t=0,j,i;
     for(i=0;i<m;i++)
         for(j=0;j<n;j++)
             scanf("%d",&arr[i][j]);
