@@ -2,10 +2,16 @@
 #include <limits.h>
 int main()
 {
-    int arr[25];
+    int arr[100];
     int max=INT_MIN,min=INT_MAX,l,s,i,j,n;
     printf("Enter number of elements : ");
     scanf("%d",&n);
+    while (n>100||n<1)
+    {
+        printf("Error! number should in range of (1 to 100).\n");
+        printf("Enter the number again: ");
+        scanf("%d",&n);
+    }
     printf("Enter %d elements ; \n",n);
     for(i=0;i<n;i++)
         scanf("%d",arr+i);
