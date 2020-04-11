@@ -3,7 +3,7 @@
 int main()
 {
     char str[20],cpy[20];
-    printf("Enter the string : ");
+    printf("Enter the string [length<=20] : ");
     gets(str);
     int l=0,i=0,flag=1;
     while(str[i]!='\0')
