@@ -10,6 +10,6 @@ int main()
 	printf("SUM OF TWO NUMBERS IS %d\n",(*pnum1+*pnum2));
 	printf("DIFFERENCE OF TWO NUMBERS IS %d\n",(*pnum1-*pnum2));
 	printf("MULTIPLICATION OF TWO NUMBERS IS %d\n",((*pnum1)*(*pnum2)));
-	printf("DIVISION OF TWO NUMBERS IS %f\n",((*pnum1)/(*pnum2)));
+	printf("DIVISION OF TWO NUMBERS IS %d\n",((*pnum1)/(*pnum2)));
 	printf("MODULAS OF TWO NUMBERS IS %d\n",((*pnum1)%(*pnum2)));
 }
